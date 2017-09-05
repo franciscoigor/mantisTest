@@ -78,7 +78,7 @@
       }
     }
   },
-  "myview": {
+  "viewissues": {
     "type": "object",
     "properties": {
       "issueslist": {
