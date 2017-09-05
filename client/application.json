@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "01eb284d",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlfravi"
+  "creatorId": "gdlfravi",
+  "id": "mantistest",
+  "previewImageURL": "/previews/01eb284d-mantistest/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/franciscoigor/mantisTest",
+  "creatorName": "Francisco Aviles"
 }
