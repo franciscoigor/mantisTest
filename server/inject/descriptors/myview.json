@@ -6,6 +6,12 @@
       "selector": ".subtle[href]",
       "control": "exist",
       "selectContains": "Assigned to Me (Unresolved)"
+    },
+    "myviewaction": {
+      "type": "action",
+      "selector": "a[href]",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": []
