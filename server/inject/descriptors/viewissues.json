@@ -56,14 +56,5 @@
       "selectContains": "Assigned to Me (Unresolved)"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "ismyview"
-      ],
-      "screens": [
-        "viewissues"
-      ]
-    }
-  ]
+  "connect": []
 }
