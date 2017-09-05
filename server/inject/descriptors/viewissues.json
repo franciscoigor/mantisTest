@@ -47,7 +47,7 @@
             },
             "selector": "td a[href]",
             "control": "property.innerText",
-            "selectIndex": 1
+            "selectIndex": 2
           },
           "updated": {
             "type": "string",
