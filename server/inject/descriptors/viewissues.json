@@ -20,7 +20,7 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 6,
+            "selectIndex": 10,
             "control": "property.innerText"
           },
           "status": {
