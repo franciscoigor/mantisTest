@@ -46,7 +46,8 @@
               "type": "none"
             },
             "selector": "td a[href]",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 1
           },
           "updated": {
             "type": "string",
