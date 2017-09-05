@@ -18,7 +18,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 6,
+            "control": "property.innerText"
           },
           "status": {
             "type": "string",
