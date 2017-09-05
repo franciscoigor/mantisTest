@@ -44,7 +44,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "a[href^=\"http://ec2-52-41-179-125.us-west-2.compute.amazonaws.com/mantisbt/view_user_page.php\"]",
+            "control": "property.innerText"
           },
           "updated": {
             "type": "string",
