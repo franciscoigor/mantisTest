@@ -46,7 +46,7 @@
         }
       },
       "selector": "input[type=submit]",
-      "control": "text"
+      "control": "action.button"
     }
   },
   "connect": []
