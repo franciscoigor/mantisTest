@@ -10,7 +10,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "a[href=\"/mantisbt/?\"]",
+            "control": "property.innerText"
           },
           "summary": {
             "type": "string",
