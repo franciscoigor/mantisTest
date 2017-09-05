@@ -11,7 +11,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "a[href=\"/mantisbt/?\"]",
+            "selector": "a[href^=\"/mantisbt\"]",
             "control": "property.innerText"
           },
           "summary": {
