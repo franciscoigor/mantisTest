@@ -51,11 +51,10 @@
     },
     "IsLogin": {
       "type": "identifier",
-      "selector": "#text",
-      "control": "property.innerText"
+      "control": "exists",
+      "selector": ".form-title",
+      "selectContains": "Login"
     }
   },
-  "connect": [],
-  "selector": ".form-title",
-  "selectContains": "Login"
+  "connect": []
 }
