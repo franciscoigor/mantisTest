@@ -46,9 +46,9 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "#buglist tr[bgcolor]"
     }
   },
-  "connect": [],
-  "selector": "#buglist tr[bgcolor]"
+  "connect": []
 }
