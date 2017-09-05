@@ -26,10 +26,7 @@
       "name": "login",
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
-      "model": "login",
-      "extraViews": [
-        "desktop"
-      ]
+      "model": "login"
     },
     {
       "id": "test",
