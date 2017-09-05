@@ -45,7 +45,8 @@
           "type": "string"
         }
       },
-      "selector": "[type=submit]"
+      "selector": "input[type=submit]",
+      "control": "text"
     }
   },
   "connect": []
