@@ -27,7 +27,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": ".issue-status",
+            "control": "property.innerText"
           },
           "severity": {
             "type": "string",
