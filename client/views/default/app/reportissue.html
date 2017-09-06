@@ -26,22 +26,18 @@
                     </label>
                 </div>
             </div>
-            <label class="item" data-comp-id="takePhoto.1"
-                ng-class="{'item-input item-button-right': style === 'control'}"
-                take-photo="control">
+            <label class="item" data-comp-id="takePhoto.1" ng-class="{'item-input item-button-right': style === 'control'}" take-photo="control">
                 <span class="input-label" ng-if="style === 'control'">Take Photo</span>
                 <button class="button button-icon" ng-if="style === 'control'">
                     <i class="icon positive-icon ion-camera"></i>
                 </button>
                 <input disabled="" ng-if="style === 'control'" type="text">
-                <button class="button button-block button-positive nomargin"
-                    ng-if="style === 'button'">Take Photo</button>
+                <button class="button button-block button-positive nomargin" ng-if="style === 'button'">Take Photo</button>
                 <textarea class="not-visible"></textarea>
             </label>
             <div class="row" data-comp-id="row.3">
                 <div class="col" data-comp-id="column.3">
-                    <button class="button button-block" data-comp-id="button.3"
-                        ng-click="app.action('reportissuemodel', 'submit', this)">Submit</button>
+                    <button class="button button-block" data-comp-id="button.3" ng-click="app.action('reportissuemodel', 'submit', this)">Submit</button>
                 </div>
             </div>
         </div>
