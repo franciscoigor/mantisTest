@@ -17,7 +17,7 @@
     },
     "submit": {
       "type": "action",
-      "selector": "input.button[value=\"Submit Report\"]",
+      "selector": "body",
       "control": "action.button"
     }
   },
