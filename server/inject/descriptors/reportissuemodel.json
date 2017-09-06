@@ -19,6 +19,12 @@
       "type": "action",
       "selector": ".button[value=\"Submit Report\"]",
       "control": "action.button"
+    },
+    "isreportissue": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
