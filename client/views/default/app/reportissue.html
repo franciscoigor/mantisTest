@@ -1,4 +1,38 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-content data-comp-id="ionic-content.1">
+        <div data-comp-id="div.1">
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.3">
+                    <div data-comp-id="text.1">Category</div>
+                    <select-list data-comp-id="selectList.1">Input Label</select-list>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.3">
+                <div class="col" data-comp-id="column.4">
+                    <div data-comp-id="text.2">Summary</div>
+                    <label class="item item-input" data-comp-id="textInput.1">
+                        <span class="input-label">Issue Summary</span>
+                        <input type="text">
+                    </label>
+                </div>
+            </div>
+            <label class="item" data-comp-id="takePhoto.1"
+                ng-class="{'item-input item-button-right': style === 'control'}"
+                take-photo="control">
+                <span class="input-label" ng-if="style === 'control'">Take Photo</span>
+                <button class="button button-icon" ng-if="style === 'control'">
+                    <i class="icon positive-icon ion-camera"></i>
+                </button>
+                <input disabled="" ng-if="style === 'control'" type="text">
+                <button class="button button-block button-positive nomargin"
+                    ng-if="style === 'button'">Take Photo</button>
+                <textarea class="not-visible"></textarea>
+            </label>
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.2">
+                    <button class="button button-block" data-comp-id="button.2">Submit</button>
+                </div>
+            </div>
+        </div>
     </ion-content>
 </ion-view>
