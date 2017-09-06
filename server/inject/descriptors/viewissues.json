@@ -64,6 +64,12 @@
         "type": "none"
       },
       "selectorAll": "#buglist tr[bgcolor]"
+    },
+    "ismyviewissues": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "action.link",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
