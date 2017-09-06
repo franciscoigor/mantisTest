@@ -70,6 +70,12 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "reportissue": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "Report Issue"
     }
   },
   "connect": [
