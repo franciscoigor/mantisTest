@@ -151,6 +151,9 @@
       },
       "photo": {
         "type": "string"
+      },
+      "description": {
+        "type": "string"
       }
     }
   }
