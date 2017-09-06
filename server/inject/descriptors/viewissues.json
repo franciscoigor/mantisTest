@@ -68,7 +68,7 @@
     "ismyviewissues": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "action.link",
+      "control": "exists",
       "selectContains": "Viewing Issues"
     }
   },
