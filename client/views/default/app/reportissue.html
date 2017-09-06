@@ -13,16 +13,25 @@
         <div data-comp-id="div.1">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1">Category</div>
+                    <div data-comp-id="text.2">Category</div>
                     <select-list data-comp-id="selectList.1" ng-model="data.category">Select a category</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
-                    <div data-comp-id="text.2">Summary</div>
+                    <div data-comp-id="text.1">Summary</div>
                     <label class="item item-input" data-comp-id="textInput.1">
-                        <span class="input-label">Issue Summary</span>
+                        <i class="icon ion-information placeholder-icon"></i>
                         <input ng-model="data.summary" type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.4">
+                <div class="col" data-comp-id="column.4">
+                    <div data-comp-id="text.3">Description</div>
+                    <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
+                        <span class="input-label"></span>
+                        <textarea ng-model="data.description" rows="4"></textarea>
                     </label>
                 </div>
             </div>
