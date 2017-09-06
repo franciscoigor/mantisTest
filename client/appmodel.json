@@ -138,7 +138,10 @@
         "type": "select"
       },
       "summary": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "submit": {
         "type": "action"
