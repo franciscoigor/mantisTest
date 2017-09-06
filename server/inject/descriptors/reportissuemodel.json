@@ -25,6 +25,11 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
+    },
+    "description": {
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     }
   },
   "connect": [
